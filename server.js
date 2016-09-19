@@ -49,6 +49,11 @@ app.use(morgan('combined'));
          <div class="container">
             ${content}
          </div>
+         
+         <div class="footer">
+         Voila app Copyright
+         </div>
+         
         </body>
          
   </html>`
