@@ -7,9 +7,9 @@ app.use(morgan('combined'));
 
 
   var articleone={
-      Title:' the apppp',
-      heading:'hshshb',
-      date:' 22',content:`<p>
+      Title:'Voila App',
+      heading:'voila App Heading',
+      date:'@ sep 2016',content:`<p>
       fkfkfk
       </p>
       <p>
