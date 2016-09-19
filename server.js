@@ -23,7 +23,7 @@ app.use(morgan('combined'));
   var date=data.date;
   var heading=data.heading;
   var content=data.content;
-   var httptemplate=
+   var htmltemplate={
        
       ` 
        <html>
