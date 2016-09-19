@@ -5,32 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-/*var content={
-    title:'second page',
-    heading:'home page',
-    content: `<p>j</p>
-    hkhh
-    jhjhj`
- 
-    
-};*/
-/*function createTmplate (data){
-var htmltemplate=
-{
-  `  <html>
-    <head>
-    <title>
-    $(title)
-    
-    </title>
-    
-    </head>
-    
-    </html>`};
-    
 
-    
-}*/
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'page-one.html'));
 });
