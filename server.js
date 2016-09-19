@@ -26,7 +26,7 @@ app.use(morgan('combined'));
   var content=data.content;
    var htmltemplate= ` 
        <html>
-     <head>
+     <head> Volia app
          <title>
         ${title}
          </title>
