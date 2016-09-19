@@ -9,11 +9,11 @@ var content={
     title:'second page',
     heading:'home page',
     content: `<p>j</p>
-   <p> hjhbnbnb</p>
-  <p>  vvvn
-    </p>'
+    hkhh
+    jhjhj`
+ 
     
-}
+};
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
