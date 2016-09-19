@@ -20,7 +20,7 @@ body {
     height: 200px;
 }
 
-.container{
+.header{
     max-width:800px;
     margin:0 auto;
     color:grey;
