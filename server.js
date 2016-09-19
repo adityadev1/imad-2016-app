@@ -41,7 +41,7 @@ app.use(morgan('combined'));
  +            <a href="/">Home</a>
  +            <hr/>
  +            <h3>
- +                ${haeding}
+ +                ${heading}
  +            </h3>
  +        </div>
  +        <div>
