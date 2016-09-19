@@ -10,7 +10,7 @@ app.use(morgan('combined'));
       title:'Voila App',
       heading:'voila App Heading',
       date:'@ sep 2016',content:`<p>
-      fkfkfk
+      The voila apps unique app  which gives
       </p>
       <p>
       ddddd</p>`
@@ -46,7 +46,7 @@ app.use(morgan('combined'));
          <div>
             ${date}
          </div>
-         <div>
+         <div id= "container">
             ${content}
          </div>
         </body>
