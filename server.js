@@ -31,6 +31,9 @@ var htmltemplate=
 
     
 }*/
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'page-one.html'));
+});
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
