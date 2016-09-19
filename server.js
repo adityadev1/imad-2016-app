@@ -24,13 +24,13 @@ app.use(morgan('combined'));
   var heading=data.heading;
     var date=data.date;
   var content=data.content;
-   var htmltemplate={
+   var htmltemplate=
        
       ` 
        <html>
  +    <head>
  +        <title>
- +         $ {title}
+ +         ${title}
  +        </title>
  +        
  +    </head>
@@ -42,19 +42,19 @@ app.use(morgan('combined'));
  +            <a href="/">Home</a>
  +            <hr/>
  +            <h3>
- +                $ {heading}
+ +                ${heading}
  +            </h3>
  +        </div>
  +        <div>
  +           $ {date}
  +        </div>
  +        <div>
- +           $ {content}
+ +           ${content}
  +        </div>
  +        </body>
  +        
- +</html>`
-     ;  
+ + </html>`
+  ;  
      return htmltemplate;
   }
    
