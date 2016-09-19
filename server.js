@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
   var articleone={
-      Title:'Voila App',
+      title:'Voila App',
       heading:'voila App Heading',
       date:'@ sep 2016',content:`<p>
       fkfkfk
@@ -26,7 +26,7 @@ app.use(morgan('combined'));
   var content=data.content;
    var htmltemplate= ` 
        <html>
-     <head> Volia app
+     <head>
          <title>
         ${title}
          </title>
