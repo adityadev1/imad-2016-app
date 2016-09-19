@@ -30,7 +30,7 @@ app.use(morgan('combined'));
          <title>
         ${title}
          </title>
-         
+          <link href="/ui/style.css" rel="stylesheet" />
      </head>
      
      
