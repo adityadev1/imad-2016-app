@@ -19,8 +19,8 @@ app.use(morgan('combined'));
   };
     var articletwo={
       title:'Voila App',
-      heading:'voila  Hesecondading',
-      date:'@ sep 2016',content:`<p>
+      heading:'voila  The secondad Page',
+      date:'DYnamics',content:`<p>
       The voila apps unique app  which gives
       </p>
       <p>
