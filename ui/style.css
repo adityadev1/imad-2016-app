@@ -30,10 +30,8 @@ body {
      padding-bottom:60px;
 }
 .header{
+     font-size: 300%;
  background-color:#FFF2BF;
-      padding-top:6px;
-     padding-left:6px;
-     padding-bottom:6px;
 }
 .footer{
     margin-top: 340px;
