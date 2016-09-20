@@ -43,6 +43,24 @@ body {
     display:inline;
       
 }
+
+.header span{
+
+    outline:none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: #fff;
+  border: 2px
+  solid #bbbbbb;
+  color:#1ECD97;
+  letter-spacing:1px;
+  text-shadow:0;
+  font-size:12px;
+   font-weight:bold;
+    
+}
 .container{
     text-align: center;
     max-width:800px;
