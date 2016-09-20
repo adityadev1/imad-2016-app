@@ -17,6 +17,17 @@ app.use(morgan('combined'));
       
       
   };
+    var articletwo={
+      title:'Voila App',
+      heading:'voila  Hesecondading',
+      date:'@ sep 2016',content:`<p>
+      The voila apps unique app  which gives
+      </p>
+      <p>
+      Aplication is developed for Basic web App second </p>`
+      
+      
+  };
   
   function createTemplate(data)
   { var title=data.title;
@@ -70,6 +81,9 @@ app.get('/article-one', function (req, res) {
   res.send(createTemplate(articleone));
 });
 
+app.get('/article-one', function (req, res) {
+  res.send(createTemplate(articletwo));
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
