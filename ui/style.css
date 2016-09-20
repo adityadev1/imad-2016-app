@@ -23,10 +23,13 @@ body {
 }
 
 .header{
+    background-size:15px;
      font-size: 100%;
  background-color:#FFF2BF;
 }
 .header menu{
+    
+    
     padding:6px 0 7px 0;
 
 }
