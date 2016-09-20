@@ -34,7 +34,11 @@ body {
   text-align: center;
 }
 .header menu{
-    
+     border-bottom: 17px double black; 
+    border-top: 6px solid black; 
+    content:"";
+    height: 5px; 
+    width:30px;
     
     padding:6px 0 7px 0;
 
