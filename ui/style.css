@@ -5,9 +5,9 @@ body {
 }
 
 .center {
-    text-align: Right;
+    text-align:center;
     
-    font-size: 30%;
+    font-size: 130%;
 }
 
 .text-big {
