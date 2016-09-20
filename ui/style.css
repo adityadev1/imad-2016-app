@@ -24,6 +24,13 @@ body {
      font-size: 300%;
  background-color:#FFF2BF;
 }
+.header menu{
+    padding:6px 0 7px 0;
+
+}
+.header  li{
+    display:inline;
+}
 .container{
     text-align: center;
     max-width:800px;
