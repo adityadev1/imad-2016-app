@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 
   var articleone={
       title:'Voila App',
-      heading:'Voila App',
+      heading:'Voila App is ',
       date:'10 sep 2016',
       content:`<p>
       The voila apps unique app  which gives the beginner to Start developing its own App
