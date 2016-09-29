@@ -61,8 +61,8 @@ app.use(morgan('combined'));
             </p>
          </div>
          <div class="center">
-         <p>
-            ${content}</p>
+         
+            ${content}
          </div>
          
          <div class="footer">
