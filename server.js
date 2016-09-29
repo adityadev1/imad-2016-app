@@ -19,8 +19,11 @@ app.use(morgan('combined'));
     var articletwo={
       title:'Voila App',
       heading:'voila  The secondad Page',
-      date:'DYnamics',content:`<p>
-      The voila apps unique app  which gives
+      date:'DYnamics',
+      content:`<p>
+      Introductory Part of voila Web App
+      
+        Voila Web App is the App developed using html javascript
       </p>
       <p>
       Aplication is developed for Basic web App second </p>`
