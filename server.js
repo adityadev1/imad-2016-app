@@ -60,9 +60,9 @@ app.use(morgan('combined'));
         </h3>
          </div>
          <div class="container">
-         <h2>
+         
           ${content}
-          </h2>
+         
          </div>
          
          <div class="footer">
