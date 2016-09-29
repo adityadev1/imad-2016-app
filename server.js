@@ -9,7 +9,7 @@ app.use(morgan('combined'));
   var articleone={
       title:'Voila App',
       heading:'Voila App',
-      date:'@ sep 2016',
+      date:'10 sep 2016',
       content:`<p>
       The voila apps unique app  which gives the beginner to Start developing its own App
       Aplication web App is developed having with little knowledge and groom skills remarkably</p>`
@@ -55,10 +55,14 @@ app.use(morgan('combined'));
              </h3>
          </div>
          <div>
+         <p>
+         
             ${date}
+            </p>
          </div>
          <div class="container">
-            ${content}
+         <p>
+            ${content}</p>
          </div>
          
          <div class="footer">
