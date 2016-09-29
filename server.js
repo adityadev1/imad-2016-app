@@ -55,9 +55,9 @@ app.use(morgan('combined'));
              </h3>
          </div>
          <div>
-         
+         <h3>
            ${date}
-        
+        </h3>
          </div>
          <div class="center">
           ${content}
