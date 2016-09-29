@@ -55,14 +55,12 @@ app.use(morgan('combined'));
              </h3>
          </div>
          <div>
-         <p>
          
-            ${date}
-            </p>
+           ${date}
+        
          </div>
          <div class="center">
-         
-            ${content}
+          ${content}
          </div>
          
          <div class="footer">
