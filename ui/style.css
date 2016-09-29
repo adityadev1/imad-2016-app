@@ -10,7 +10,8 @@ body {
 
 .center {
     text-align:center;
-    top: 320;
+    top: 320px;
+    bottom:120px;
     font-size: 130%;
 }
 
