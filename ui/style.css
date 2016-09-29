@@ -4,8 +4,16 @@ body {
     
 }
 .container{
-    text-align:center;
-     color:yellow;
+     
+       height: 90px;
+  width: 270px;
+  background: #000;
+  font-size: 48px;
+  font-style: oblique;
+  color: #FFF;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
 .center {
