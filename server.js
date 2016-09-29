@@ -8,12 +8,11 @@ app.use(morgan('combined'));
 
   var articleone={
       title:'Voila App',
-      heading:'Voila App Text',
-      date:'@ sep 2016',content:`<p>
-      The voila apps unique app  which gives
-      </p>
-      <p>
-      Aplication is developed for Basic web App</p>`
+      heading:'Voila App',
+      date:'@ sep 2016',
+      content:`<p>
+      The voila apps unique app  which gives the beginner to Start developing its own App
+      Aplication web App is developed having with little knowledge and groom skills remarkably</p>`
       
       
   };
