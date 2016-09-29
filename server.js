@@ -24,8 +24,6 @@ app.use(morgan('combined'));
       Introductory Part of voila Web App
       
         Voila Web App is the App developed using html javascript
-      </p>
-      <p>
       Aplication is developed for Basic web App second </p>`
       
       
