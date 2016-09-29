@@ -3,6 +3,10 @@ body {
     background-color: lightgrey;
     
 }
+.container{
+    text-align:center;
+     color:yellow;
+}
 
 .center {
     text-align:center;
