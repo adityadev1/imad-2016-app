@@ -18,7 +18,7 @@ app.use(morgan('combined'));
   };
     var articletwo={
       title:'Voila App',
-      heading:'voila  The secondad Page',
+      heading:'voila  The second Page',
       date:'DYnamics',
       content:`<p>
       Introductory Part of voila Web App
@@ -43,18 +43,15 @@ app.use(morgan('combined'));
          </title>
           <link href="/ui/style.css" rel="stylesheet" />
      </head>
-     
-     
      <body>
-         
-        <div class="header">
+          <div class="header">
              <a href="/">Home</a>
              <hr/>
              <h3>
                  ${heading}
              </h3>
          </div>
-         <div>
+         <div class="header">
          <h3>
            ${date}
         </h3>
