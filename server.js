@@ -28,6 +28,18 @@ app.use(morgan('combined'));
       
       
   };
+ var singup ={
+      title:'Voila App',
+      heading:'voila  The SignIn  Page',
+      date:'ghgh',
+      content:`<p>
+      Introductory Part of voila Web App
+      
+        Voila Web App is the App developed using html javascript
+      Aplication is developed for Basic web App second </p>`
+      
+      
+  };
   
   function createTemplate(data)
   { var title=data.title;
@@ -51,7 +63,7 @@ app.use(morgan('combined'));
                  ${heading}
              </h3>
          </div>
-         <div class="header">
+         <div class="container">
          <h3>
            ${date}
         </h3>
@@ -86,6 +98,9 @@ app.get('/article-two', function (req, res) {
   res.send(createTemplate(articletwo));
 });
 
+app.get('/singup', function (req, res) {
+  res.send(createTemplate(singup));
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
